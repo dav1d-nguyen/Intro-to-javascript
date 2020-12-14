@@ -30,5 +30,10 @@ console.log (total)
 
 // 4-digit sum of the digits
 
+let four_digit = 1024
 
+let string_digit = four_digit.toString()
 
+let sum_four_digit = parseInt(string_digit.charAt(0))+parseInt(string_digit.charAt(1))+parseInt(string_digit.charAt(2))+parseInt(string_digit.charAt(3))
+
+console.log(sum_four_digit)
